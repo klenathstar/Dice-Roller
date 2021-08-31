@@ -1,0 +1,11 @@
+html {
+    width: 410px;
+    background: rgb(172,172,172);
+    background: linear-gradient(3deg, rgba(172,172,172,1) 0%, rgb(106, 79, 146) 100%);
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px black;
+}
+#resolution {
+    font-size: 14px;
+    font-weight: bolder;
+}

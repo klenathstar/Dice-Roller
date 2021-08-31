@@ -12,7 +12,27 @@ function rollD4(dice, numDice) {
     }
 }
 var roll20 = 
-document.getElementById("roll").addEventListener("click", function() {
+document.getElementById("roll20").addEventListener("click", function() {
     var resolution = rollD4(21,1);
+    document.getElementById("resolution").innerHTML = resolution;
+  });
+  document.getElementById("roll12").addEventListener("click", function() {
+    var resolution = rollD4(13,1);
+    document.getElementById("resolution").innerHTML = resolution;
+  });
+  document.getElementById("roll10").addEventListener("click", function() {
+    var resolution = rollD4(11,1);
+    document.getElementById("resolution").innerHTML = resolution;
+  });
+  document.getElementById("roll8").addEventListener("click", function() {
+    var resolution = rollD4(9,1);
+    document.getElementById("resolution").innerHTML = resolution;
+  });
+  document.getElementById("roll6").addEventListener("click", function() {
+    var resolution = rollD4(7,1);
+    document.getElementById("resolution").innerHTML = resolution;
+  });
+  document.getElementById("roll4").addEventListener("click", function() {
+    var resolution = rollD4(5,1);
     document.getElementById("resolution").innerHTML = resolution;
   });
